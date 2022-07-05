@@ -4,7 +4,27 @@
     align-items: center;
     justify-content: center;
 
-    padding: 211px 421px 211px 390px;
-    background: url('../../../public/images/video/bg.png') 157px 0px no-repeat, url('../../../public/images/video/bg.png') top right no-repeat;;
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1109px;
+        max-height: 578px;
+
+        img {
+            width: 1005px;
+            height: auto;
+            padding: 0px 139px 0px 104px;
+        }
+        padding: 211px 421px 211px 390px;
+    }
+
+    &__border-left {
+        padding-left:  104px;
+    }
+
+    &__border-right{
+        padding-right: 153px;
+    }
 }
 

@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 13px 105px 13px 75px;
+    padding: 13px 105px 13px 8px;
     
     &__info {
         display: flex;
@@ -27,6 +27,7 @@
     }
 
     &__list-btn {
+        width: 220px;
         margin-left: 47px;
         font-family: 'Industry';
         font-weight: 600;
@@ -36,7 +37,7 @@
         color: white;
         background: none;
         border: 3px solid $purple;
-        padding: 12px 45px 18px 45px;
+        padding: 12px 0px 18px;
     }
     
 }

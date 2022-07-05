@@ -14,9 +14,10 @@ export default function Why() {
                     <div className="lable"/>
                     <p> No crypto wallet needed until money withdraw;</p>
                 </d>
+                <br/>
                 <d className="why__reason">
                     <div className="lable"/>
-                    <p> Storydriven gameplay in epic global plot each player can influence. 
+                    <p> Storydriven gameplay in epic global plot each player can influence. <br/>
                 There are no grind or boring activities;</p>
                 </d>
                 <d className="why__reason">
@@ -32,7 +33,7 @@ export default function Why() {
                 </d>
                 <d className="why__reason">
                     <div className="lable"/>
-                    <p> NFT ownership. Each batle robot, pilot, weapon or even planet are your's.
+                    <p> NFT ownership. Each batle robot, pilot, weapon or even planet are your's.<br/>
                 You are able to sell it in any time.</p>
                 </d>
             </div>
