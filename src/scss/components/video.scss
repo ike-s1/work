@@ -3,28 +3,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    &__content {
+    &__container {
+        margin: 0px 153px 0px  157px;
         display: flex;
         align-items: center;
         justify-content: center;
-        max-width: 1109px;
-        max-height: 578px;
+    }
+    &__content {
 
         img {
-            width: 1005px;
-            height: auto;
+            max-width: 1109px;
+            max-height: 578px;
             padding: 0px 139px 0px 104px;
         }
-        padding: 211px 421px 211px 390px;
     }
 
     &__border-left {
-        padding-left:  104px;
+        margin-left:  104px;
     }
 
     &__border-right{
-        padding-right: 153px;
+        margin-right: 153px;
     }
 }
 
