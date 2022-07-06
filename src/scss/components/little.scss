@@ -1,0 +1,16 @@
+.little {
+    text-align: center;
+    &__row {
+        display: flex;
+        align-items: center;
+        padding: 120px 0px 90px 0px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+
+}

@@ -1,6 +1,32 @@
 
 
 .battlemech {
-    background:  url('../../../public/images/battlemech/mechs.png') center center / cover no-repeat;
-    min-height: 889px;
+
+    &__content {
+        display: flex;
+        background:  url('../../../public/images/battlemech/mechs.png') center center / cover no-repeat;
+        min-height: 889px;
+    }
+    &__left {
+        width: 50%;
+    }
+    &__right {
+        background: rgba(31, 28, 37, 0.8);
+        width: 50%;
+        p {
+            margin: 184px 0px 257px 54px;
+            max-width: 529px;
+            font-family: 'KoHo';
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 34px;
+            color: #FFFFFF;  
+            }
+    }
+    &__title {
+        margin: 37px 0px 50.27px 0px;
+    }
+
+   
+    
 }

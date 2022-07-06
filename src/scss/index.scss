@@ -2,11 +2,19 @@
 
 @font-face {
 	font-family: Industry;
+	font-weight: 600;
 	src: url('../fonts/Industry-Demi.ttf');
 }
 
+@font-face {
+	font-family: Industry;
+	font-weight: 700;
+	src: url('../fonts/Industry-Bold.ttf');
+}
 
-@import './components/header.scss';
+
+@import './components/all';
+@import './components/variables';
 
 
 * {
@@ -80,6 +88,27 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
+}
+
+
+.title-gold {
+	font-family: 'Industry';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 72px;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 8px rgba(188, 146, 64, 0.76);
+}
+
+.title-purpl {
+	font-family: 'Industry';
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	color: #AEA0FF;
 }
 
 

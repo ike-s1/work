@@ -5,7 +5,7 @@ export default function Why() {
   return (
     <section className="why">
         <div className="why__container">
-            <h1 className="why__title">
+            <h1 className="why__title title-gold">
                 WHY YOU SHOULD PLAY VOID GODS?
             </h1>
             <div className="why__content">

@@ -8,3 +8,4 @@ export { default as Battlemech } from './battlemech/Battlemech';
 export { default as Pilots } from './pilots/Pilots';
 export { default as Weapons } from './weapons/Weapons';
 export { default as Roadmap } from './roadmap/Roadmap';
+export { default as Planets } from './planets/Planets';

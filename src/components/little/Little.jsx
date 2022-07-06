@@ -7,17 +7,9 @@ export default function Little() {
   return (
     <section className='little'>
             <div className="little__row">
-                <div className="little__item">
-                    <img src="/images/little/1.png" alt="gallery" />
-                </div>
-                <div className="little__item">
-                    <img src="/images/little/2.png" alt="gallery" />
-                </div>
-                <div className="little__item">
-                    <img src="/images/little/3.png" alt="gallery" />
-                </div>
+                <img src="/images/little/littleGallery.png" alt="gallery" />
             </div>
-            <h1 className="little__tittle">
+            <h1 className="little__title title-gold">
             WHAT WILL HELP YOU TO WIN IN BATTLES?
             </h1>
     </section>

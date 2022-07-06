@@ -1,19 +1,13 @@
 .why {
     background: url('../../../public/images/why/bg.png') center center / cover no-repeat;
     &__container {
-        padding: 0 217px 63px 207px;
+        padding: 60px 207px 104px 203px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
     }
     &__title  {
-        margin:  60px 0px 107px;
-        font-family: 'Industry';
-        font-weight: 600;
-        font-size: 60px;
-        line-height: 72px;
-        text-align: center;
-        text-shadow: 0px 0px 8px rgba(188, 146, 64, 0.76);
+        margin-bottom: 63px;
     }
 
     &__content {
@@ -22,7 +16,7 @@
     }
 
     .lable {
-        width: 307px;
+        min-width: 307px;
         height: 5px;
         background-color: #695BBF;
         margin-right: 24.14px;

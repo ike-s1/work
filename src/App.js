@@ -1,8 +1,8 @@
-import { Battlemech, Header, HowEarn, Little, Preview, Roadmap, Video, Weapons, Why } from './components';
-import Pilots from './components/pilots/Pilots';
+import { Battlemech, Header, HowEarn,
+  Little, Pilots, Planets, Preview, Roadmap,
+  Video, Weapons, Why } from './components';
 
 import './scss/index.scss';
-
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
      <Battlemech/>
      <Pilots/>
      <Weapons/>
+     <Planets/>
      <Roadmap/>
     </div>
   );

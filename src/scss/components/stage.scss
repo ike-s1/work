@@ -1,0 +1,60 @@
+
+
+.stage {
+    &__connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    &__img {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &__content {
+        min-height: 680px;
+        display: flex;
+        background: url('../../../public/images/roadmap/stage1.png') 0 0 / auto no-repeat; 
+    }
+
+    &__emphty {
+        width: 50%;
+    }
+
+    &__lable {
+    width: 50%;
+    background: url('../../../public/images/roadmap/lableBg.png') center bottom / auto no-repeat;
+        &-content {
+            padding: 318px 0px 0px 146px ;
+            h1 {
+            font-family: 'KoHo';
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 46px;
+            color: #AEA0FF;
+            }
+
+            p {
+                font-family: 'KoHo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 34px;
+                color: #FFFFFF;
+                margin-bottom: 45px;
+            }
+
+            ul {
+            margin-left: 45px;
+            font-family: 'KoHo';
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 34px;
+
+            }
+        }
+    }
+}
