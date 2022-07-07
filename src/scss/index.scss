@@ -13,7 +13,6 @@
 }
 
 
-@import './components/all';
 @import './components/variables';
 
 
@@ -92,6 +91,7 @@ a:hover {
 
 
 .title-gold {
+	text-transform: uppercase;
 	font-family: 'Industry';
 	font-style: normal;
 	font-weight: 600;
@@ -103,6 +103,7 @@ a:hover {
 }
 
 .title-purpl {
+	text-transform: uppercase;
 	font-family: 'Industry';
 	font-weight: 600;
 	font-size: 50px;

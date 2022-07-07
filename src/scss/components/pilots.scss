@@ -1,12 +1,11 @@
 
 
 .pilots {
-    background: url('../../../public/images/pilots/exp_pilots.png') top  / cover no-repeat;
-    height: 100vh;
+    background: url('../../../public/images/pilots/exp_pilots.png') center top / 100% auto no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 1097px;
+
 
     &__title {
     margin-top: 65px;

@@ -9,3 +9,7 @@ export { default as Pilots } from './pilots/Pilots';
 export { default as Weapons } from './weapons/Weapons';
 export { default as Roadmap } from './roadmap/Roadmap';
 export { default as Planets } from './planets/Planets';
+export { default as Origin } from './origin/Origin';
+export { default as Factions } from './factions/Factions';
+export { default as Discord } from './discord/Discord';
+export { default as Footer } from './footer/Footer';

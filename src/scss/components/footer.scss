@@ -1,0 +1,39 @@
+.footer {
+    border-top: 5px solid rgba(188, 146, 64, 0.4);
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.15);
+    background: rgba(31, 28, 37, 0.95);
+
+    &__top {
+        border-bottom: 2px solid #3C3C3C;
+
+        img {
+            padding: 106px 0px 94px 69px;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &__bottom {
+        padding: 40px 47px 41px 69px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-socials {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+
+        }
+
+        p {
+        font-family: 'KoHo';
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 34px;
+        text-align: center;
+        color: #818181;
+        }
+    }
+}

@@ -9,7 +9,8 @@ export default function Planets() {
         </h1>
         <div className="planets__body">
         <div className="planets__img">
-          <img src="#" alt="planet" />
+          <img src="/images/planets/planet1.png" alt="planet"  className='planets__img-one'/>
+          <img src="/images/planets/planet2.png" alt="planet" className='planets__img-two' />
         </div>
         <div className="planets__text">
           <p >

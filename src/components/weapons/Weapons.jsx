@@ -15,8 +15,6 @@ export default function Weapons() {
            modules={[Pagination]}
            slidesPerView={1}
            pagination={{ clickable: true }}
-           onSwiper={(swiper) => console.log(swiper)}
-           onSlideChange={() => console.log('slide change')}
         >
           <SwiperSlide>
             <div className="weapon__item">

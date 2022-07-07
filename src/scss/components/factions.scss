@@ -1,0 +1,103 @@
+
+.factions {
+    &__content  {
+        padding: 0px 89px  0px 97px;
+    }
+    &__title  {
+       padding: 53px 0px;
+       background: url('../../../public/images/factions/titleBg.png') top right / 75%  auto no-repeat;
+       margin-bottom: 44px;
+    }
+
+    .factionOne {
+        background: url('../../../public/images/factions/faction1Bg.png')  center bottom / auto no-repeat;
+        display: flex;
+        margin-bottom: 101px;
+
+        &__info {
+            margin: 90px 33px 56.33px 63px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        
+        &__title {             
+            font-family: 'KoHo';
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 55px;
+        }
+
+        &__desc {
+            max-width: 742px;
+            font-family: 'KoHo';
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 34px;
+            margin-bottom: 22px;
+        }
+
+        &__btn {
+            background: none;
+            align-self: center;
+        }
+    }
+
+    .factionTwo {
+        background: url('../../../public/images/factions/faction2Bg.png')  center top / auto no-repeat; ;
+        display: flex;
+        flex-direction: row-reverse;
+
+        &__info {
+            margin: 90px 33px 56.33px 63px;
+            display: flex;
+            flex-direction: column;
+            text-align:right;
+        }
+
+        &__img {
+            width: 50%;
+        }
+
+
+        &__content {
+            width: 50%;
+        }
+
+        
+        &__title {         
+            font-family: 'KoHo';
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39px;
+            text-transform: uppercase;
+            color: #DCAD51;
+            margin-bottom: 55px;
+        }
+
+        &__desc {
+            max-width: 742px;
+            font-family: 'KoHo';
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 34px;
+            margin-bottom: 22px;
+        }
+
+        &__btn {
+            background: none;
+            align-self: center;
+
+            &-active {
+                transform: rotate(180deg);
+            }
+
+        }
+
+
+        
+    }
+}

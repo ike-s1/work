@@ -1,0 +1,59 @@
+.discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 182px;
+    margin-bottom: 132px;
+
+    &__list {   
+        margin-right: 81px;
+
+        &-btn {
+            border: 3px solid #7D67A8;
+            padding: 23px 68px;
+            background: none;
+            font-family: 'Industry';
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: #FFFFFF;
+            text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.35);
+        }
+    }
+
+    &__join {
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        // font-family: 'Industry';
+        // font-weight: 700;
+        // font-size: 60px;
+        // line-height: 72px;
+        // text-align: right;
+        // text-transform: uppercase;
+        // color: #FFFFFF;
+        // text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.35);
+
+        // &-top {
+
+        // }
+        // &-bottom {
+        //     font-size: 52px;
+        //     display: flex;
+        //     align-items: center;
+
+
+        // }
+        // img {
+        //     margin-right: 10px;
+        //     width: 42px;
+        //     height: 47px;
+        // }
+        // p {
+            
+        // }
+    }
+}

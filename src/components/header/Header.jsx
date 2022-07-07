@@ -5,7 +5,9 @@ function Header() {
   return (
     <header className='header'>
         <div className="header__logo">
-            <img src="/images/header/logo.png" alt="void gods" />
+          <a href="#">
+              <img src="/images/header/logo.png" alt="void gods" />
+          </a>
         </div>
         <div className="header__info">
             <div className="header__socials">
