@@ -10,8 +10,8 @@ export default function Footer() {
         <div className="footer__bottom">
             <p>Void Gods, 2022</p>
             <div className="footer__bottom-socials">
-                <img src="/icons/discordGray.png" alt="discord" />
-                <img src="/icons/twitterGray.png" alt="twitter" />
+                <a href="#"><img src="/icons/discordGray.png" alt="discord" /></a>
+                <a href="#"><img src="/icons/twitterGray.png" alt="twitter" /></a>
             </div>
         </div>
     </footer>

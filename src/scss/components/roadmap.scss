@@ -2,13 +2,107 @@
 
 .roadmap {
     background: url('../../../public/images/roadmap/titleBg.png') right top / auto no-repeat;
+    margin-bottom: 69px;
     &__title {
     margin-bottom: 31.11px;
     padding: 55px 0px;
     }
 
-    &__stages {
+   
+
+}
+
+.stage {
+    &__content {
+        width: 100%;
+        display: flex;
+        position: relative;
+
+       
+    }
+
+    &__connect {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        position: relative;
+        
+
+
+        &-right {
+            img {
+                transform: rotateY(180deg);
+            }
+        }
+       
+
+    }
+
+    &-right {
+        .stage__content {
+            justify-content: flex-end;
+        }
+      
+
+        .lable {
+            left: 0;
+            &__content {
+                left: 85%;
+                
+            }
+        }
+    }
+
+    &__img {
+        width: 85%;
+
+        img {
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+
+
     
+
+.lable {
+    font-family: 'KoHo';
+    background: url('../../../public/images/roadmap/lableBg.png') center /  cover no-repeat;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    bottom: 0;
+    right: 0;
+
+    &__content  {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 46px;
+        color: #AEA0FF;
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+
+    &__list {
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
     }
 
 }
+
+}
+
+

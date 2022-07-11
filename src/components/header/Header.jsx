@@ -3,7 +3,7 @@ import '../../scss/components/header.scss';
 
 function Header() {
   return (
-    <header className='header'>
+        <header className='header'>
         <div className="header__logo">
           <a href="#">
               <img src="/images/header/logo.png" alt="void gods" />
@@ -23,6 +23,7 @@ function Header() {
             </button>
         </div>
     </header>
+
   )
 }
 

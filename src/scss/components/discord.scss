@@ -1,18 +1,27 @@
 .discord {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 182px;
-    margin-bottom: 132px;
+    font-family: 'Industry';
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 182px;
+        margin-bottom: 132px;
+     
+    }
 
     &__list {   
         margin-right: 81px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: #7D67A8;
+        }
 
         &-btn {
             border: 3px solid #7D67A8;
             padding: 23px 68px;
             background: none;
-            font-family: 'Industry';
+
             font-weight: 600;
             font-size: 40px;
             line-height: 48px;
@@ -23,37 +32,29 @@
     }
 
     &__join {
-
-        img {
-            max-width: 100%;
-            height: auto;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.35);
+        transition: all 0.3s ease;
+        &:hover {
+            transform: scale(1.1);
         }
-        // font-family: 'Industry';
-        // font-weight: 700;
-        // font-size: 60px;
-        // line-height: 72px;
-        // text-align: right;
-        // text-transform: uppercase;
-        // color: #FFFFFF;
-        // text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.35);
+        
+        img {
+            margin-right: 15px;
+        }
 
-        // &-top {
+        &-bottom {
+            display: flex;
+            align-items: flex-start;
+        }
 
-        // }
-        // &-bottom {
-        //     font-size: 52px;
-        //     display: flex;
-        //     align-items: center;
-
-
-        // }
-        // img {
-        //     margin-right: 10px;
-        //     width: 42px;
-        //     height: 47px;
-        // }
-        // p {
-            
-        // }
+        span  {
+            font-size: 50px;
+            line-height: 35px;
+        
+        }
     }
 }

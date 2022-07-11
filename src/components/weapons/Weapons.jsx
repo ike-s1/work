@@ -10,26 +10,19 @@ export default function Weapons() {
   return (
     <section className="weapons">
       <h1 className="weapons__title title-purpl">DEADLY WEAPONS</h1>
-      <div className="weapons__slider">
-        <Swiper
+        <Swiper className="weapons__slider"
            modules={[Pagination]}
            slidesPerView={1}
            pagination={{ clickable: true }}
         >
-          <SwiperSlide>
-            <div className="weapon__item">
+          <SwiperSlide className="weapon__item">
               <img src="/images/weapons/weapon1.png" alt="weapon" />
-            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="weapon__item">
+          <SwiperSlide className="weapon__item">  
               <img src="/images/weapons/weapon2.png" alt="weapon" />
-            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="weapon__item">
+          <SwiperSlide className="weapon__item">
               <img src="/images/weapons/weapon3.png" alt="weapon" />
-            </div>
           </SwiperSlide>
         </Swiper>
         <div className="weapons__text">
@@ -40,7 +33,6 @@ export default function Weapons() {
           mine valuable void crystals and provide tournaments.
             </p>
         </div>
-      </div>
     </section>
   );
 }

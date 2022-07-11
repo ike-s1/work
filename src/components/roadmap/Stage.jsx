@@ -1,28 +1,38 @@
 import React from "react";
-import "../../scss/components/stage.scss";
 
-export default function Stage({list}) {
+export default function Stage({ id, list, title, subtitle }) {
   return (
-    <div className="stage">
+    <div className={id % 2 !== 0 ? "stage" : "stage stage-right"}>
       <div className="stage__content">
-       <div className="stage__emphty"/>
-        <div className="stage__lable">
-          <div className="stage__lable-content">
-            <h1 className="stage__lable-title">Stage 1. Q3 2022</h1>
-            <p className="stage__lable-subtitle">MVP game application</p>
-            <div className="stage__lable-list">
-              <ul>
-                {list.map((elem, index) => {
-                  return <li key={index}>{elem}</li>;
-                })}
-              </ul>
-            </div>
+        <div className="stage__img">
+          <img src={`/images/roadmap/stage${id}.png`} alt="stage1" />
+        </div>
+        <div className="stage__lable lable">
+          <div className="lable__content">
+            <h2 className="lable__title">{title}</h2>
+            <h4 className="lable__subtitle">{subtitle}</h4>
+            <ul className="lable__list">
+              {list.map((item) => {
+                return (
+                  <li key={item} className="lable__list-item">
+                    {item}
+                  </li>
+                );
+              })}
+            </ul>
           </div>
         </div>
       </div>
-      <div className="stage__connect">
-        <img src="/images/roadmap/connect.png" alt="connect" />
-      </div>
+      { id < 5 &&
+      (
+        <div className="stage__connect">
+          <div
+            className={id % 2 !== 0 ? "stage__connect" : "stage__connect-right"}
+          >
+            <img src="/images/roadmap/connect.png" alt="connect" />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

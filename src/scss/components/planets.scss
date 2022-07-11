@@ -1,32 +1,55 @@
 
 .planets {
-    background: url('../../../public/images/planets/bg-left.png') 0px 0px  /  70% 10% no-repeat;
+    background: url('../../../public/images/planets/bg-left.png')  -20% top    / auto no-repeat;
     padding-bottom: 119px;
     &__title {
+   
     min-height: 79.54px;
-    margin-top: 17px;
-    margin-bottom: 93.46px;
+    padding: 17px 0px;
+    margin-bottom: 76px;
     }
 
     &__body {
-        background: url('../../../public/images/planets/space.png') center /  100% auto no-repeat;
+        background: url('../../../public/images/planets/space.png') center /  cover no-repeat;
         display: flex;
         min-height:  747px;
     }
     &__img {
         position: relative;
         width: 50%;
-        &-one {
+     
+
+        &-red {
             position: absolute;
             top: 41px;
             right: 147px;
             z-index: 10;
+
+           
+
+            &.active {
+                width: 35%;
+                cursor: pointer;
+                z-index: 0;
+               
+            }
+
+           
         }
-        &-two {
+
+        &-green {
             position: absolute;
             bottom: 59px;
             right: 0px;
-            z-index: 0;
+            z-index: 0;          
+            width: 50%;
+
+            &.active {
+                width: 35%;
+                cursor: pointer;
+                z-index: 0;
+               
+            }
         }
     }
     &__text {

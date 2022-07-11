@@ -3,6 +3,7 @@
 
 .how-earn {
     background: url('../../../public/images/earn/earnBg.png') top center / 100% no-repeat;
+    padding: 0 15px;
     &__title {
     padding-top: 20px;
     }
@@ -10,9 +11,11 @@
     &__content {
         margin: 0 auto;
         display: flex;
+        justify-content: center;
     }
 
     &__gallery {
+        max-width: 763px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -44,6 +47,7 @@
 
     .methods-list {
       padding-left: 40px;
+      margin-right: 40px;
     }
 
 

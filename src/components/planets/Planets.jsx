@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../scss/components/planets.scss';
 
 export default function Planets() {
+
+  const [activePlanet, setActivePlanet] = useState('green');
+
   return (
     <section className="planets">
         <h1 className="planets__title title-purpl">
@@ -9,8 +12,16 @@ export default function Planets() {
         </h1>
         <div className="planets__body">
         <div className="planets__img">
-          <img src="/images/planets/planet1.png" alt="planet"  className='planets__img-one'/>
-          <img src="/images/planets/planet2.png" alt="planet" className='planets__img-two' />
+          <img 
+          onClick={() => setActivePlanet('green')} 
+          src="/images/planets/planet1.png" 
+          alt="planet"  
+          className={`planets__img-red ${activePlanet === 'red' && 'active'}`}/>
+          <img 
+           onClick={() => setActivePlanet('red')} 
+          src="/images/planets/planet2.png" alt="planet" 
+          className={`planets__img-green ${activePlanet === 'green' && 'active'}`}
+          />
         </div>
         <div className="planets__text">
           <p >
