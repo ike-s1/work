@@ -44,7 +44,7 @@ export default function Origin() {
                                 </p>
 
                             </div>
-                            <div className="itemThree__image">
+                            <div className="itemThree__img">
                                 <img src="/images/origin/itemThreeImg.png" alt="heros" />
                             </div>
                     </div>

@@ -38,21 +38,6 @@
 
     }
 
-    &-right {
-        .stage__content {
-            justify-content: flex-end;
-        }
-      
-
-        .lable {
-            left: 0;
-            &__content {
-                left: 85%;
-                
-            }
-        }
-    }
-
     &__img {
         width: 85%;
 
@@ -101,6 +86,18 @@
     line-height: 34px;
     }
 
+}
+
+&-right {
+    .stage__content {
+        justify-content: flex-end;
+    }
+  
+
+    .lable {
+        background: url('../../../public/images/roadmap/lableBgLeft.png'); 
+        left: 0;
+    }
 }
 
 }

@@ -4,10 +4,12 @@
     background: url('../../../public/images/pilots/pilotsBg.png') center top / 100% auto no-repeat;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 
     &__content {
         display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 0px 79px 144px 149px;
 
         img {
@@ -20,7 +22,7 @@
         margin-top: 25px;
     }
     &__title {
-    margin-top: 65px;
+        margin-top: 65px;
     }
 
 

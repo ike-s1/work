@@ -1,19 +1,23 @@
 
 .origin {
     padding: 0px 89px  0px 97px;
+    width: 100%;
     &__content {
         background: url('../../../public/images/origin/borderLeft.png') 63px 0px /  auto   no-repeat;
         .itemOne {
-            background: url('../../../public/images/origin/itemBgBig.png') -20px -40px / 100%  auto no-repeat;
+            background: url('../../../public/images/origin/itemBgBig.png') 0 0  / cover no-repeat;
             display: flex;
+            justify-content: space-between;
             margin-bottom: 65px;
+            margin-left: 62px;
+
             &__img {
                 width: 50%;
                 margin-top: 52px;
-                margin-right: -21px;
               img {
                 width: 100%;
                 height: auto;
+                object-fit: cover;
               } 
             }
             &__text {
@@ -37,7 +41,7 @@
             background: url('../../../public/images/origin/itemTwoImg.png') 0 0 / auto no-repeat;
             min-height: 630px;
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
             margin-bottom: 65px;
             &__lable {
                 padding: 72px 19px 18px 132px;

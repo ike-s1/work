@@ -15,13 +15,13 @@ export default function Weapons() {
            slidesPerView={1}
            pagination={{ clickable: true }}
         >
-          <SwiperSlide className="weapon__item">
+          <SwiperSlide className="weapons__item">
               <img src="/images/weapons/weapon1.png" alt="weapon" />
           </SwiperSlide>
-          <SwiperSlide className="weapon__item">  
+          <SwiperSlide className="weapons__item">  
               <img src="/images/weapons/weapon2.png" alt="weapon" />
           </SwiperSlide>
-          <SwiperSlide className="weapon__item">
+          <SwiperSlide className="weapons__item">
               <img src="/images/weapons/weapon3.png" alt="weapon" />
           </SwiperSlide>
         </Swiper>

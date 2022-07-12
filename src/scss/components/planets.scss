@@ -2,6 +2,7 @@
 .planets {
     background: url('../../../public/images/planets/bg-left.png')  -20% top    / auto no-repeat;
     padding-bottom: 119px;
+
     &__title {
    
     min-height: 79.54px;
@@ -13,10 +14,14 @@
         background: url('../../../public/images/planets/space.png') center /  cover no-repeat;
         display: flex;
         min-height:  747px;
+        width: 100%;
     }
     &__img {
         position: relative;
         width: 50%;
+        img {
+            transition: all .3s linear;
+        }
      
 
         &-red {
@@ -24,17 +29,17 @@
             top: 41px;
             right: 147px;
             z-index: 10;
+            width: 570px;
 
-           
+            
 
+        
             &.active {
-                width: 35%;
+                width: 400px;
                 cursor: pointer;
                 z-index: 0;
                
             }
-
-           
         }
 
         &-green {
@@ -42,10 +47,10 @@
             bottom: 59px;
             right: 0px;
             z-index: 0;          
-            width: 50%;
+            width: 450px;
 
             &.active {
-                width: 35%;
+                width:  382px;
                 cursor: pointer;
                 z-index: 0;
                
@@ -67,4 +72,16 @@
             color: #FFFFFF;
         }
     }
+}
+
+
+@keyframes red {
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+
+    }
+
 }

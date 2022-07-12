@@ -1,25 +1,37 @@
 
 .video {
-    background: url('../../../public/images/video/bg.png')  90% 0 / auto 100% no-repeat,
-    url('../../../public/images/video/bg.png')  10% 0/ auto 100% no-repeat,
-    rgba(31, 28, 37, 0.85);
     display: flex;
     align-items: center;
     justify-content: center;
-   &__container {
-    margin:  11vh 21vw ;
-     width: 100%;
+    height: 100vh;
+    background: url('../../../public/images/video/bg.png')  5% 0 / auto 100% no-repeat,
+    url('../../../public/images/video/bg.png')  95% 0 / auto  100% no-repeat;
+ 
 
-   }
+    &__content {
+        width: 60%;
+        height: 60%;
 
-   &__content {
-    width: 100%;
         img {
             width: 100%;
-            height: auto;
+            height: 100%;
         }
-   }
+    }
+
+   
+    
+}
+
+@media (max-width: 750px) {
+    .video {
+        background: url('../../../public/images/video/bg.png')  0 0 / auto 100% no-repeat,
+    url('../../../public/images/video/bg.png') 100% 0 / auto  100% no-repeat;;
+        &__content {
+            width: 90%;
+        }
+    }
+}
    
 
-}
+
 

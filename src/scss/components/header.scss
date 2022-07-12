@@ -2,38 +2,36 @@
 
 
 
-
-
 .header {
-    max-height: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 13px 105px 13px 8px;
+    padding: 0px 105px 0px 8px;
     
     &__info {
         display: flex;
         align-items: center;
-        justify-content: center;
+
     }
 
     &__socials {
         display:flex;
         align-items: flex-start;
+        margin-right: 47px;
+
+        .twitter {
+            margin-right: 26px;
+        }
     }
 
     &__logo {
         margin-right: 10px;
     }
     
-    &-icon {
-        margin-right: 26px;
-    }
-
     &__list-btn {
-        width: 220px;
-        margin-left: 47px;
         font-family: 'Industry';
+        padding: 12px 25px;
         font-weight: 600;
         font-size: 30px;
         line-height: 36px;
@@ -41,7 +39,77 @@
         color: white;
         background: none;
         border: 3px solid $purple;
-        padding: 12px 0px 18px;
+        white-space: nowrap;
     }
     
+}
+
+@media  (max-width: 1250px) {
+    .header {
+        padding: 0px 30px 0px 8px;
+         
+    }
+
+   
+}
+
+@media  (max-width: 750px) {
+    .header {
+        padding: 0px 22px 0px 8px;
+
+        &__logo {
+            img {
+                width: 220px;
+            }
+        }
+
+        &__list-btn {
+        font-size: 25px;
+        padding: 8px 3px;
+    }
+        
+    
+    &__socials {
+        margin-right: 26px;
+
+        .twitter {
+            margin-right: 15px;
+        }
+    }
+
+  
+    }
+}
+
+@media  (max-width: 550px) {
+    .header {
+        height: 60px;
+
+        &__logo  {
+            img {
+                width: 90px;
+                height: auto;
+            }
+        }
+        
+        .twitter {
+            margin-right: 13px;
+        }
+
+        &__socials {
+            img {
+                width: 21px;
+            }
+            margin-right: 13px;
+        }
+
+        
+        &__list-btn {
+            padding: 8px 20px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+    
+         
+    }
 }

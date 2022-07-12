@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Stage({ id, list, title, subtitle }) {
   return (
     <div className={id % 2 !== 0 ? "stage" : "stage stage-right"}>

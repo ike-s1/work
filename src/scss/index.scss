@@ -120,3 +120,58 @@ a:hover {
 	margin: 0 auto;
 	max-width: 1920px;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 1250px) {
+	.title-gold {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	
+	.title-purpl {
+		font-size: 40px;
+
+	}
+	
+}
+
+
+
+@media (max-width: 750px) {
+    .title-gold {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	
+	.title-purpl {
+		font-size: 35px;
+		line-height: 50px;
+	}
+	
+}
+
+
+
+@media (max-width: 550px) {
+    .title-gold {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	
+	.title-purpl {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	
+}
+
+
+
+

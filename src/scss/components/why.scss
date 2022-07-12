@@ -1,7 +1,8 @@
 .why {
-    background: url('../../../public/images/why/bg.png') center center / cover no-repeat;
+    background: url('../../../public/images/why/bg.png') center  / cover no-repeat;
     padding: 0 15px;
     &__container {
+        
         max-width: 1520px;
         margin: 0 auto;
         display: flex;
@@ -18,6 +19,23 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+        &-right {
+            align-self: flex-end;
+            text-align: right;
+            .why__reason {
+            flex-direction: row-reverse;
+            p {
+                max-width: 831px;
+            }
+    
+            .lable {
+                margin: 0 0 0 24px;
+                max-width: 266px;
+               
+            }
+            }
+        }
     }
 
     .lable {
@@ -27,23 +45,7 @@
         margin-right: 24px;
     }
 
-    &__content-right {
-        align-self: flex-end;
-        text-align: right;
-        .why__reason {
-        flex-direction: row-reverse;
-        p {
-            max-width: 831px;
-        }
-
-        .lable {
-            margin: 0 0 0 29px;
-            max-width: 266px;
-           
-        }
-        }
-    }
-
+  
 
     &__reason {
         display: flex;
@@ -63,5 +65,45 @@
            }
     }
 
+}
+
+
+@media (max-width: 1250px) {
+
+    .why {
+        .lable {
+            min-width: 200px;
+        
+        }
+    
+
+    
+    &__reason {
+        padding-bottom: 30px;
+
+         p  {
+                font-size: 22px;
+           }
+    }
+   
+}
+
+}
+
+
+@media (max-width: 750px) {
+        .why  {
+          
+        }
+}
+
+
+
+@media (max-width: 550px) {
+    .why {
+        &__title  {
+            margin: 55px 0px 16px 0px;
+        }
+    }
 }
 
